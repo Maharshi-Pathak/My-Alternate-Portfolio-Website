@@ -1,121 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="re-authored" content="MPP" />
-    <!-- Keyword Metadata -->
-
-    <!-- Webpage Logo -->
+    <meta
+      name="description"
+      content="Maharshi Pathak | Human-centered energy systems researcher and engineer"
+    />
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-    <!-- Webpage Title -->
-    <title>Maharshi Pradip Pathak</title>
-
-    <!-- Import CSS: Main Stylesheet -->
+    <title>Maharshi Pathak</title>
     <link rel="stylesheet" href="main.css" />
   </head>
-
   <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">Maharshi Pradip PathaK</span>
-          <span class="site-description">Programmer • Energy engineer • Home Auomation expert</span>
-        </h1>
-        <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/maharshi-pathak-/">
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/Maharshi-Pathak">
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="mailto:pathak.m@northeastern.edu" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
-        </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
-        </div>
-      </div>
-      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-    </div>
-
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>My Story</h1>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="./assets/img/webp/Professional-Picture-Me.webp"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="./assets/img/jpg/Professional-Picture-Me.jpg"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
+    <header class="hero">
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow">Maharshi Pathak</p>
+        <h1>PhD Researcher in Human-Centered Energy & Infrastructure Systems</h1>
         <p>
-          Graduate student researcher Maharshi Pathak is an Interdisciplinary Engineering PhD Student at Northeastern University.
-          He currently works under Professor Kane in the ABLE lab to research human-in-the-loop control of civil infrastructure. 
-          Prior to joining Northeastern, he worked as a Research Engineer at the National Renewable Energy Laboratory (NREL) where 
-          he worked on developing technologies for civil energy infrastructure, primarily in the area of building energy performance 
-          and energy efficiency, resource planning, distributed energy generation, and grid-intractability potential. Maharshi earned 
-          a Master of Science in Built Environment – Energy Performance and Climate Responsive Architecture from Arizona State University
-          in 2017 where he pursued novel ways of incorporating machine learning algorithms for defining building prototypes for urban-scale building energy analysis.
+          I build practical machine learning and optimization systems for buildings, grid
+          interaction, and occupant comfort.
         </p>
-      </div>
-
-      <!-- User Specifics -->
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-        <div class="tech">
-          <h2>Languages</h2>
-          <i class="devicon-python-plain colored"></i>
-          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
-        </div>
-
-       
-
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <i class="devicon-postgresql-plain-wordmark colored"></i>
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
-        </div>
-
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-github-plain-wordmark colored"></i>
-          <i class="devicon-docker-plain-wordmark colored"></i>
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+        <div class="actions">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn" href="./Pathak, Outstanding PhD Application.pdf" target="_blank" rel="noopener">
+            Resume & Cover Letters (PDF)
+          </a>
         </div>
       </div>
-    </section>
+    </header>
 
-   
+    <main>
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I am an Interdisciplinary Engineering PhD candidate at Northeastern University focused on
+          human-in-the-loop control and dynamic comfort modeling for civil infrastructure. My work
+          connects building operations, machine learning, and behavioral insight so systems remain
+          both efficient and accountable to people.
+        </p>
+        <p>
+          Previously, I worked as a Research Engineer at the National Renewable Energy Laboratory
+          (NREL), where I contributed to large-scale building stock modeling, renewable pathway
+          analysis, and software tools used by utility partners nationwide.
+        </p>
+      </section>
 
-    <footer class="footer">
-      <p>&copy; Maharshi Pathak, 2022</p>
+      <section id="experience" class="section">
+        <h2>Experience Highlights</h2>
+        <ul>
+          <li>
+            <strong>Northeastern University (PhD):</strong> Research on dynamic comfort and
+            human-building interaction in grid-interactive efficient buildings.
+          </li>
+          <li>
+            <strong>NREL (Research Engineer):</strong> Improved U.S. housing stock modeling
+            coverage and reduced simulation cost through cloud/HPC Python workflows.
+          </li>
+          <li>
+            <strong>Applied ML & Energy Systems:</strong> Reinforcement learning and optimization
+            approaches for distributed energy and building operations.
+          </li>
+        </ul>
+      </section>
+
+      <section id="work" class="section">
+        <h2>Technical Focus</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Machine Learning</h3>
+            <p>Python, scikit-learn, TensorFlow, PyTorch, time-series modeling, optimization.</p>
+          </article>
+          <article class="card">
+            <h3>Energy & Built Environment</h3>
+            <p>Building energy analytics, grid-interactive systems, OpenStudio/EnergyPlus workflows.</p>
+          </article>
+          <article class="card">
+            <h3>Cloud & HPC</h3>
+            <p>AWS/Azure/GCP, Docker/Kubernetes, SLURM pipelines, reproducible automation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <h2>Resume & Application Package</h2>
+        <p>
+          The latest combined resume and cover letter packet is available here:
+          <a href="./Pathak, Outstanding PhD Application.pdf" target="_blank" rel="noopener"
+            >Pathak, Outstanding PhD Application.pdf</a
+          >.
+        </p>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:pathak.m@northeastern.edu">pathak.m@northeastern.edu</a></p>
+        <p>
+          <a href="https://www.linkedin.com/in/maharshi-pathak-/" target="_blank" rel="noopener">LinkedIn</a>
+          ·
+          <a href="https://github.com/Maharshi-Pathak" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© Maharshi Pathak</p>
+      <p class="small">Simple static HTML/CSS site ready for GitHub Pages.</p>
     </footer>
-
-
   </body>
 </html>
